@@ -5,7 +5,7 @@ from PIL import Image
 import websockets_api as flux_model
 import io
 
-TOKEN = ""
+TOKEN = os.environ.get('TELEGRAM_BOT')
 AUTHORIZED_USERS = [357036102]  # List of authorized user IDs
 
 def is_authorized(user_id: int) -> bool:
