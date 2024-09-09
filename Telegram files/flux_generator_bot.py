@@ -5,7 +5,7 @@ from PIL import Image
 import websockets_api as flux_model
 import io
 
-TOKEN = "6722764728:AAFmjdSDjun1izL1-1X_7Go4Ljrr8M7vV9w"
+TOKEN = ""
 AUTHORIZED_USERS = [357036102]  # List of authorized user IDs
 
 def is_authorized(user_id: int) -> bool:
